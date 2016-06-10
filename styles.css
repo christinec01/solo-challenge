@@ -1,3 +1,89 @@
 body{
-  background:blue;
+  background:rgb(232, 195, 176);
+  max-width:80%;
+}
+
+#body-wrap{
+  position:relative;
+
+}
+h1{
+  border: 10px groove rgba(154, 65, 15, 0.86);
+  padding: 6%;
+  opacity:.8;
+  margin-left: 20px;
+  margin-right:20px;
+  background-image:url(http://www.tiptophomeremedies.com/wp-content/uploads/2015/04/coffee-grounds.jpg);
+
+}
+
+.main-content{
+  font-family:"Comic Sans MS",fantasy, sans-serif;
+  font-size: 20px;
+  color:rgb(101, 7, 7);
+  width:100%;
+}
+
+#credits{
+margin:3px;
+margin-left:680px;
+padding:5px;
+border-radius:20px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+background-color:rgb(72, 199, 254);
+position:fixed ;
+z-index:+1;
+
+}
+
+.picture h1{
+  color:rgb(15, 31, 245);
+  font-style:oblique;
+  font-family:;
+  min-width:20%;
+  font-size:80px;
+
+  max-width:80%;
+
+}
+
+ img{
+  margin-left:10px;
+  margin-right:20px;
+  margin-top:10%;
+  position:relative;
+}
+#bulk-info{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  position:relative;
+  padding:20px;
+  margin:5px;
+  }
+#other-coffee{
+  position:relative;
+  padding:10px;
+  margin-top:20px;
+  color:blue;
+}
+
+a:hover   {color:rgb(40, 197, 224); background-color:transparent; text-decoration:underline}
+
+
+
+
+.more-info{
+  font-family:Verdana, Geneva, sans-serif;
+  position:relative;
+  margin-top:5%;
+  display:inline-flex;
+  padding:1px;
+  ;
+  text-align:right;
+}
+a.link{
+  text-decoration: overline;
+}
+h2{
+  background-color:rgba(60, 172, 227, 0.99)
 }
